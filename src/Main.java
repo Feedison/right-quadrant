@@ -16,12 +16,12 @@ public class Main {
 
         // Checking what quadrant the coordinate located in
         if (x > 0 && y > 0)
-            System.out.println("Coordinate ("+x+", "+y+") located in I quadrant.");
+            System.out.printf("Coordinate (%d, %d) located in I quadrant.", x, y);
         else if (x < 0 && y > 0)
-            System.out.println("Coordinate ("+x+", "+y+") located in II quadrant.");
+            System.out.printf("Coordinate (%d, %d) located in II quadrant.", x, y);
         else if (x < 0 && y < 0)
-            System.out.println("Coordinate ("+x+", "+y+") located in III quadrant.");
+            System.out.printf("Coordinate (%d, %d) located in III quadrant.", x, y);
         else
-            System.out.println("Coordinate ("+x+", "+y+") located in IV quadrant.");
+            System.out.printf("Coordinate (%d, %d) located in IV quadrant.", x, y);
     }
 }
