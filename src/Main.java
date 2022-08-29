@@ -15,13 +15,14 @@ public class Main {
         int y = console.nextInt();
 
         // Checking what quadrant the coordinate located in
-        if (x > 0 && y > 0)
+        if ((x > 0) && (y > 0)) {
             System.out.printf("Coordinate (%d, %d) located in I quadrant.", x, y);
-        else if (x < 0 && y > 0)
+        } else if ((x < 0) && (y > 0)) {
             System.out.printf("Coordinate (%d, %d) located in II quadrant.", x, y);
-        else if (x < 0 && y < 0)
+        } else if ((x < 0) && (y < 0)) {
             System.out.printf("Coordinate (%d, %d) located in III quadrant.", x, y);
-        else
+        } else {
             System.out.printf("Coordinate (%d, %d) located in IV quadrant.", x, y);
+        }
     }
 }
